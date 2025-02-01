@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kontak</title>
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, sans-serif;
+        }
+
+        body {
+          background-color: #f5f5f5;
+        }
+
+        .header {
+          background-color: #333;
+          color: white;
+          padding: 1rem;
+        }
+
+        .nav {
+          background-color: #444;
+          padding: 1rem;
+        }
+
+        .nav a {
+          color: white;
+          text-decoration: none;
+          margin: 0 1rem;
+        }
+
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 2rem;
+        }
+
+        .hero {
+          background-color: #fff;
+          padding: 2rem;
+          border-radius: 10px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 1rem;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+
+        input, textarea {
+          padding: 0.5rem;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+        }
+
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: #45a049;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>My Website</h1>
+      </div>
+      
+      <div class="nav">
+        <a href="/">Home</a>
+        <a href="kontak">Kontak</a>
+        <a href="detail">Detail</a>
+      </div>
+
+      <div class="container">
+        <div class="hero">
+          <h1>Hubungi Kami</h1>
+          <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" rows="5" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+      </div>
+    </body>
+    </html>
