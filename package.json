@@ -15,5 +15,9 @@
     "url": "https://github.com/MDhafaR/belajar_node_js/issues"
   },
   "homepage": "https://github.com/MDhafaR/belajar_node_js#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
 }
